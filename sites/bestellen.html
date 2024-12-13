@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../pictures/logo.webp">
+    <title>Bestellen</title>
+    <link rel="stylesheet" href="../css/stylesheet.css">
+</head>
+<body>
+    <header>
+    <nav>
+        <ul>
+            <a href="home.html"><img src="../pictures/logo.webp" alt="Homepage Logo"></a>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="jets.html">Jets</a></li>
+            <li>Hersteller
+            <ul>
+                <li><a href="hersteller/lockheedmartin.html">Lockheed Martin</a></li>
+                <li><a href="hersteller/boeing.html">Boeing</a></li>
+                <li><a href="hersteller/airbus.html">Airbus</a></li>
+            </ul>
+            </li>
+            <li><a href="bestellen.html">Bestellen</a></li>
+            <li><a href="impressum.html">Impressum</a></li>
+        </ul>
+    </nav>
+    </header>
+    
+    <div>
+       <form action="bestellen.html">
+     <label>Vorname:</label><br>
+     <input type="text" name="firstname" placeholder="Pete" required minlength="1"><br><br>
+     <label>Nachname:</label><br>
+      <input type="text" name="lastname" placeholder="Mitchell" required minlength="1"><br><br>
+      <label>Rufname</label><br>
+      <input type="text" name="Rufname" placeholder="Maverick"><br><br>
+      <label>E-Mail:</label><br>
+      <input type="email" name="email" placeholder="pete.mitchell@example.net"><br><br>
+      <label>Welcher Flieger willst du bestellen?</label><br>
+      <select name="jets" id="jets" placeholder="Wähle Flieger aus">
+        <option value="f22">F-22</option>
+        <option value="f35">F-35</option>
+        <option value="fa18">FA-18</option>
+        <option value="f22">C-17</option>
+        <option value="f5f">F 5F Tiger</option>
+      </select><br><br>
+      <input type="submit" value="Submit"> 
+    </form>
+    </div>
+    
+</body>
+</html>
